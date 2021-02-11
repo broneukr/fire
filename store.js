@@ -3,12 +3,13 @@ import 'firebase/firestore';
 import {initFirestorter, Collection} from 'firestorter';
 
 firebase.initializeApp({
-	apiKey: 'AIzaSyBiY-6xQrji8oe5E90d1P8J8OvfIo3F6kE',
-	authDomain: 'firestore-mobx-todo.firebaseapp.com',
-	databaseURL: 'https://firestore-mobx-todo.firebaseio.com',
-	projectId: 'firestore-mobx-todo',
-	storageBucket: 'firestore-mobx-todo.appspot.com',
-	messagingSenderId: '680642766706'
+ apiKey: "AIzaSyCqwWYWYn7Yf1_lx7SBq3Ns4ZFF9SbTk6Q",
+  authDomain: "ll1lll.firebaseapp.com",
+  projectId: "ll1lll",
+  storageBucket: "ll1lll.appspot.com",
+  messagingSenderId: "773633719961",
+  appId: "1:773633719961:web:1e9008b89e3572035c4208",
+  measurementId: "G-7VC6BJ071Y"
 });
 
 initFirestorter({firebase: firebase});
